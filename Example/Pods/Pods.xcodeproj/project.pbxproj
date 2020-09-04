@@ -7,14 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1555A8DF434418E97AC8A168B1490759 /* LrcParser-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 532DC2D2D2B9C2A176862A17CDA2D088 /* LrcParser-dummy.m */; };
 		42F0C586D167C2E4A82590AD45E38CC9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		49D2B9A7B8E561D3740727F449D3C80E /* LrcParser-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CF03912FE450D1FFDBAFBD9103FC36C5 /* LrcParser-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8840D387EB7C4FEE57E98228F5CC9EF2 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B2C1C367F6DC5A9D20C323F3FB2563 /* ReplaceMe.swift */; };
+		49D2B9A7B8E561D3740727F449D3C80E /* LrcParser-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E39DF914F54C1902CF8D6660B4A99101 /* LrcParser-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9F5F03F2B3F24734DC3CD081EBE47393 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		BD9796075A08BD41E9C961FE6071B062 /* Sayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16D83049E07640B9100E42438A9C11DB /* Sayer.swift */; };
 		BF0CF08D3E8A85F57A24D5B409F570F3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		C26487ACC7898AF876FF770E1D2A3ADD /* Pods-LrcParser_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B603DD2CC6AB0AEA5B6A44E3B694C40A /* Pods-LrcParser_Example-dummy.m */; };
 		D059677DF9851161529250F4A3A35B6D /* Pods-LrcParser_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 057FA26797C1FF322E472F3CF5D38FDD /* Pods-LrcParser_Tests-dummy.m */; };
+		F42243EE1CCB41A21FE4CDEA5C9E3D51 /* LrcParser-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 274AD61C89289646A8CBF171F2F73BC0 /* LrcParser-dummy.m */; };
 		F557FD4A3461D5553E8482F845B9BF37 /* Pods-LrcParser_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 71A69604691862DA788FD94C56752F96 /* Pods-LrcParser_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F9920AC10B209744A750EE693D095F03 /* Pods-LrcParser_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DEB04833D660D6B27A44309BFF59EFBE /* Pods-LrcParser_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
@@ -39,36 +39,36 @@
 /* Begin PBXFileReference section */
 		057FA26797C1FF322E472F3CF5D38FDD /* Pods-LrcParser_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LrcParser_Tests-dummy.m"; sourceTree = "<group>"; };
 		0FBA78379D3C71DDA136DAD98E523532 /* Pods-LrcParser_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LrcParser_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		164C2F82D639034F9A8A708CA8FF584A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		16D83049E07640B9100E42438A9C11DB /* Sayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Sayer.swift; path = LrcParser/Classes/Sayer.swift; sourceTree = "<group>"; };
 		177EE45780EFDDEE6CCE09E5705F5B7B /* LrcParser.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LrcParser.framework; path = LrcParser.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1AE2BE44EDE3CBD938E9657327E8DC1D /* Pods-LrcParser_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LrcParser_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		2334741E7DBDBBBF6698ABD77FE4AFB2 /* LrcParser-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LrcParser-prefix.pch"; sourceTree = "<group>"; };
+		274AD61C89289646A8CBF171F2F73BC0 /* LrcParser-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LrcParser-dummy.m"; sourceTree = "<group>"; };
+		29CEAE22BAE9BDD1C8A6DF46BDB2AB97 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		32C8CFCF2921194213713002D6DCDEB9 /* LrcParser-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LrcParser-Info.plist"; sourceTree = "<group>"; };
-		3AFE355FD9D13155F8494F402B7EAAE6 /* LrcParser.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = LrcParser.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		4BC0FE8498A177F1CAD5A0F7CB22B1C6 /* Pods-LrcParser_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LrcParser_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		532DC2D2D2B9C2A176862A17CDA2D088 /* LrcParser-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LrcParser-dummy.m"; sourceTree = "<group>"; };
-		57786CE43B0145263978CB121E5471D4 /* LrcParser.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LrcParser.release.xcconfig; sourceTree = "<group>"; };
+		6A2A6354CF4C505B4848C032100F0715 /* LrcParser.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LrcParser.debug.xcconfig; sourceTree = "<group>"; };
 		7118E09F7B149593D755C8AC0EF211D0 /* Pods-LrcParser_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LrcParser_Tests.modulemap"; sourceTree = "<group>"; };
 		71A69604691862DA788FD94C56752F96 /* Pods-LrcParser_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LrcParser_Example-umbrella.h"; sourceTree = "<group>"; };
-		74B2C1C367F6DC5A9D20C323F3FB2563 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = LrcParser/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		7546134126F09A8E2C8951075A993E48 /* Pods_LrcParser_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LrcParser_Example.framework; path = "Pods-LrcParser_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C4DC7DD1FC839F41F40EA0CB552D23D /* LrcParser-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LrcParser-prefix.pch"; sourceTree = "<group>"; };
+		80B9518CC382A8AAC7101646CDD3AA21 /* LrcParser.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = LrcParser.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		8B7E22E6ECC2A611F849C83106A1FF0E /* Pods_LrcParser_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LrcParser_Tests.framework; path = "Pods-LrcParser_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E4174173838DC32FD82C3419A4C8515 /* Pods-LrcParser_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LrcParser_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A07CF92D61216EFBEDCAFD503C801083 /* LrcParser.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LrcParser.modulemap; sourceTree = "<group>"; };
 		B31CB3AD0F60F6E4C1B967867FE051D0 /* Pods-LrcParser_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LrcParser_Example-frameworks.sh"; sourceTree = "<group>"; };
 		B603DD2CC6AB0AEA5B6A44E3B694C40A /* Pods-LrcParser_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LrcParser_Example-dummy.m"; sourceTree = "<group>"; };
-		B8269144FB1CAFFABCD0B2286FE6F706 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		BB38899E282A264C3D0085930880C531 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		BD4B27FD6CC3B44110011A8B2956E0DA /* LrcParser.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LrcParser.modulemap; sourceTree = "<group>"; };
 		BE4F2505E799E14C92C520D9C5C31C37 /* Pods-LrcParser_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LrcParser_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		C222054839AC2C9DE8E4027A332C4D39 /* Pods-LrcParser_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LrcParser_Example.modulemap"; sourceTree = "<group>"; };
 		C4C335F0F49292BD42AB6DF6066E5354 /* Pods-LrcParser_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LrcParser_Example.release.xcconfig"; sourceTree = "<group>"; };
 		CD43A54ADC371FC0CD06170C31EAF573 /* Pods-LrcParser_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LrcParser_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		CF03912FE450D1FFDBAFBD9103FC36C5 /* LrcParser-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LrcParser-umbrella.h"; sourceTree = "<group>"; };
 		DB59ABB474F531ED35D6E2EF88849967 /* Pods-LrcParser_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LrcParser_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		DBF7803C54F9AEF4171C4F60BBB848A4 /* Pods-LrcParser_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LrcParser_Example-Info.plist"; sourceTree = "<group>"; };
-		DD5CC8D28961DB945873BE554E11B00E /* LrcParser.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LrcParser.debug.xcconfig; sourceTree = "<group>"; };
 		DEB04833D660D6B27A44309BFF59EFBE /* Pods-LrcParser_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LrcParser_Tests-umbrella.h"; sourceTree = "<group>"; };
+		DECEFC720D23671956567CB5D373F4AA /* LrcParser.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LrcParser.release.xcconfig; sourceTree = "<group>"; };
+		E39DF914F54C1902CF8D6660B4A99101 /* LrcParser-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LrcParser-umbrella.h"; sourceTree = "<group>"; };
+		E3C3FBB97C1B93C156DF0CA0AAFC39B8 /* LrcParser-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LrcParser-Info.plist"; sourceTree = "<group>"; };
 		F0D1E0CE5617BB781FF40576417EFACC /* Pods-LrcParser_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LrcParser_Tests-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -100,6 +100,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		54A0873C4A306C1E93A8B979B85B52BB /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				164C2F82D639034F9A8A708CA8FF584A /* LICENSE */,
+				80B9518CC382A8AAC7101646CDD3AA21 /* LrcParser.podspec */,
+				29CEAE22BAE9BDD1C8A6DF46BDB2AB97 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
 		627820F87A2B278DC09DABF528FC998E /* Pods-LrcParser_Example */ = {
 			isa = PBXGroup;
 			children = (
@@ -117,6 +127,17 @@
 			path = "Target Support Files/Pods-LrcParser_Example";
 			sourceTree = "<group>";
 		};
+		6B509F9F163D68F0DB484CA3C32EF5BC /* LrcParser */ = {
+			isa = PBXGroup;
+			children = (
+				16D83049E07640B9100E42438A9C11DB /* Sayer.swift */,
+				54A0873C4A306C1E93A8B979B85B52BB /* Pod */,
+				B64DB647A651B9F872170C635CD9064F /* Support Files */,
+			);
+			name = LrcParser;
+			path = ../..;
+			sourceTree = "<group>";
+		};
 		7CB4E4B4A66298E1851615648EC4ABFE /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -126,34 +147,24 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		98C48231592B3B36234DCD89B129E605 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				BB38899E282A264C3D0085930880C531 /* LICENSE */,
-				3AFE355FD9D13155F8494F402B7EAAE6 /* LrcParser.podspec */,
-				B8269144FB1CAFFABCD0B2286FE6F706 /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
 		A60ABAA581086EED8A794C1A60EB034D /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				E37D77E3A328D23C5E78B18D0F05A9E6 /* LrcParser */,
+				6B509F9F163D68F0DB484CA3C32EF5BC /* LrcParser */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		B5A2BB280D3FB84BDA6BB82608AC405A /* Support Files */ = {
+		B64DB647A651B9F872170C635CD9064F /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				A07CF92D61216EFBEDCAFD503C801083 /* LrcParser.modulemap */,
-				532DC2D2D2B9C2A176862A17CDA2D088 /* LrcParser-dummy.m */,
-				32C8CFCF2921194213713002D6DCDEB9 /* LrcParser-Info.plist */,
-				2334741E7DBDBBBF6698ABD77FE4AFB2 /* LrcParser-prefix.pch */,
-				CF03912FE450D1FFDBAFBD9103FC36C5 /* LrcParser-umbrella.h */,
-				DD5CC8D28961DB945873BE554E11B00E /* LrcParser.debug.xcconfig */,
-				57786CE43B0145263978CB121E5471D4 /* LrcParser.release.xcconfig */,
+				BD4B27FD6CC3B44110011A8B2956E0DA /* LrcParser.modulemap */,
+				274AD61C89289646A8CBF171F2F73BC0 /* LrcParser-dummy.m */,
+				E3C3FBB97C1B93C156DF0CA0AAFC39B8 /* LrcParser-Info.plist */,
+				7C4DC7DD1FC839F41F40EA0CB552D23D /* LrcParser-prefix.pch */,
+				E39DF914F54C1902CF8D6660B4A99101 /* LrcParser-umbrella.h */,
+				6A2A6354CF4C505B4848C032100F0715 /* LrcParser.debug.xcconfig */,
+				DECEFC720D23671956567CB5D373F4AA /* LrcParser.release.xcconfig */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/LrcParser";
@@ -212,17 +223,6 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		E37D77E3A328D23C5E78B18D0F05A9E6 /* LrcParser */ = {
-			isa = PBXGroup;
-			children = (
-				74B2C1C367F6DC5A9D20C323F3FB2563 /* ReplaceMe.swift */,
-				98C48231592B3B36234DCD89B129E605 /* Pod */,
-				B5A2BB280D3FB84BDA6BB82608AC405A /* Support Files */,
-			);
-			name = LrcParser;
-			path = ../..;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -258,7 +258,7 @@
 			buildConfigurationList = 3390D8E19E2BCDE96BF97524E9CBAAEE /* Build configuration list for PBXNativeTarget "LrcParser" */;
 			buildPhases = (
 				BCB723EFC9502A4B5DCF182108CA9FA2 /* Headers */,
-				226CD29D60FD27D2B39F4789D49FAB78 /* Sources */,
+				9A3B8479D23272176FB3A869F6685E23 /* Sources */,
 				D0F69D0F04C0753DDA4E3CE812BA890E /* Frameworks */,
 				0290A5AF33B39E525AA14EA196630353 /* Resources */,
 			);
@@ -363,15 +363,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		226CD29D60FD27D2B39F4789D49FAB78 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				1555A8DF434418E97AC8A168B1490759 /* LrcParser-dummy.m in Sources */,
-				8840D387EB7C4FEE57E98228F5CC9EF2 /* ReplaceMe.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		364B09715D18509402EFDE8CBB89EAD5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -385,6 +376,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				C26487ACC7898AF876FF770E1D2A3ADD /* Pods-LrcParser_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A3B8479D23272176FB3A869F6685E23 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F42243EE1CCB41A21FE4CDEA5C9E3D51 /* LrcParser-dummy.m in Sources */,
+				BD9796075A08BD41E9C961FE6071B062 /* Sayer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -406,9 +406,9 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		2798928864165E1EF2F73AB4B407F920 /* Debug */ = {
+		24AA05B89EE7818DA1AE10648FB4A514 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DD5CC8D28961DB945873BE554E11B00E /* LrcParser.debug.xcconfig */;
+			baseConfigurationReference = DECEFC720D23671956567CB5D373F4AA /* LrcParser.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -430,12 +430,13 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 		30AEDE9472D45AA1C23144B3701C49E2 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -504,6 +505,37 @@
 			};
 			name = Debug;
 		};
+		8C76A75B104F2FA8F61895896344A9AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A2A6354CF4C505B4848C032100F0715 /* LrcParser.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LrcParser/LrcParser-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LrcParser/LrcParser-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LrcParser/LrcParser.modulemap";
+				PRODUCT_MODULE_NAME = LrcParser;
+				PRODUCT_NAME = LrcParser;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		B0087CB4594321EF41619F3181FE120E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -561,38 +593,6 @@
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Release;
-		};
-		B4BF299EB54F38918B7FC11A161A753A /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 57786CE43B0145263978CB121E5471D4 /* LrcParser.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/LrcParser/LrcParser-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/LrcParser/LrcParser-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/LrcParser/LrcParser.modulemap";
-				PRODUCT_MODULE_NAME = LrcParser;
-				PRODUCT_NAME = LrcParser;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
@@ -733,8 +733,8 @@
 		3390D8E19E2BCDE96BF97524E9CBAAEE /* Build configuration list for PBXNativeTarget "LrcParser" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2798928864165E1EF2F73AB4B407F920 /* Debug */,
-				B4BF299EB54F38918B7FC11A161A753A /* Release */,
+				8C76A75B104F2FA8F61895896344A9AC /* Debug */,
+				24AA05B89EE7818DA1AE10648FB4A514 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

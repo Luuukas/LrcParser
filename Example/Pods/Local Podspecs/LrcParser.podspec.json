@@ -1,7 +1,8 @@
 {
   "name": "LrcParser",
   "version": "0.1.0",
-  "summary": "A short description of LrcParser.",
+  "summary": "Trying to make my pod.",
+  "swift_versions": "5.0",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/Luuukas/LrcParser",
   "license": {
@@ -18,5 +19,6 @@
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "LrcParser/Classes/**/*"
+  "source_files": "LrcParser/Classes/**/*",
+  "swift_version": "5.0"
 }
