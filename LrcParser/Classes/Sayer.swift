@@ -5,4 +5,7 @@ public class Sayer {
     public func say() {
         print(words)
     }
+    public init() {
+        
+    }
 }
