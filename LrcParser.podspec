@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'LrcParser'
-  s.version          = '0.2.0'
+  s.version          = '0.3.0'
   s.summary          = 'Trying to make my pod.'
   s.swift_versions   = '5.0'
 
