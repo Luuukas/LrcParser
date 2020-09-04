@@ -1,0 +1,6 @@
+framework module LrcParser {
+  umbrella header "LrcParser-umbrella.h"
+
+  export *
+  module * { export * }
+}

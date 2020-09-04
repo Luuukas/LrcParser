@@ -1,0 +1,16 @@
+PODS:
+  - LrcParser (0.1.0)
+
+DEPENDENCIES:
+  - LrcParser (from `../`)
+
+EXTERNAL SOURCES:
+  LrcParser:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  LrcParser: 9a4d792e3c387e2e1cd94cf262e1c2eae69ef1f2
+
+PODFILE CHECKSUM: 9a8be3ded3490c8c398623d037ce3435ef997f12
+
+COCOAPODS: 1.9.3
