@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'LrcParser_Example' do
+  pod 'LrcParser', :path => '../'
+
+  target 'LrcParser_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
